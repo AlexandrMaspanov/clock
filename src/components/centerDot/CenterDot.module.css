@@ -1,0 +1,15 @@
+.centerDot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at 30% 30%, #d4d4d4, #777);
+    box-shadow:
+        0 0 2px #0004,
+        inset 0 1px 1px #fff9,
+        inset -2px -2px 3px #4447;
+    border: 1px solid #aaa;
+}
